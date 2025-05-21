@@ -1,0 +1,11 @@
+{
+  "name": "math-invasion",
+  "version": "0.1.0",
+  "description": "Prototype tower defense game",
+  "scripts": {
+    "start": "http-server public -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

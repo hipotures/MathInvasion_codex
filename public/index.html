@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Invasion</title>
+    <style>
+        body { margin:0; font-family:sans-serif; }
+        #ui { position:fixed; top:0; left:0; padding:4px; background:#fff8; }
+        canvas { display:block; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="ui">
+        <span id="waveCounter">Wave: 0</span>
+        <span id="cashDisplay" style="margin-left:8px;">Cash: 0</span>
+        <span id="countdown" style="margin-left:8px;">Next: 0</span>
+        <div id="towerPanel"></div>
+        <div id="snackbar" style="display:none; background:#333; color:#fff; padding:4px; margin-top:4px;"></div>
+        <div id="gameOver" style="display:none;">Game Over</div>
+    </div>
+    <script type="module" src="../src/main.js"></script>
+</body>
+</html>
